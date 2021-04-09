@@ -1,0 +1,134 @@
+body{
+	background-color: #00BFFF;
+}
+.mastercard{
+	background-color: #483D8B;
+	width:350px;
+	height:175px;
+	border-radius:15px;
+}
+text{
+	color: white;
+	padding-top:20px;
+	padding-left:210px;
+	position: absolute; 
+}
+.gold{
+	background-color:#ffd700;
+	position: absolute;
+	margin: 15px;
+	width:50px;
+	height:25px;
+	border-radius:4px;
+}
+output{
+	position: absolute;
+	font-size: 25px; 
+	color:white;
+	margin-top:75px;
+	margin-left:20px;
+	border:1px solid white;
+	width:270px;
+	height:30px;
+}
+.expire{
+	position: absolute;
+	margin-top:120px;
+	font-size: 14px;
+	margin-left:235px;
+	color: grey;
+}
+.holder{
+	position: absolute;
+	margin-top:120px;
+	font-size: 14px;
+	margin-left:20px;
+	color: grey;
+}
+form{
+	width:450px;
+	height:500px;
+	background-color: white;
+}
+.card_number{
+	position: absolute;
+	margin:125px;
+}
+.input_card_number{
+	position: absolute;
+	margin-top:155px;
+	margin-left:30px;
+	width:300px;
+	height:30px;
+}
+.name{
+	position: absolute;
+	margin-top:205px;
+	margin-left:145px;
+}
+.user_name{
+	position: absolute;
+	margin-top:235px;
+	margin-left:30px;
+	width:300px;
+	height:30px;
+}
+.month{
+	position: absolute;
+	margin-top:395px;
+	margin-left:10px;
+	width:80px;
+	height:30px;
+}
+.year{
+	position: absolute;
+	margin-top:395px;
+	margin-left:140px;
+	width:80px;
+	height:30px;
+}
+.password{
+	position: absolute;
+	margin-top:395px;
+	margin-left:270px;
+	width:80px;
+	height:25px;
+}
+.exp_date{
+	position: absolute;
+	margin-top:375px;
+	margin-left:10px;
+	width:80px;
+	height:30px;
+}
+.CVV{
+	position: absolute;
+	margin-top:375px;
+	margin-left:270px;
+	width:80px;
+	height:25px;
+}
+.card_holder{
+	position: absolute;
+	margin-top:145px;
+	font-size: 14px;
+	margin-left:20px;
+	color: white;
+	border:none;
+}
+.expire_year_output{
+	position: absolute;
+	margin-top:145px;
+	font-size: 14px;
+	margin-left:270px;
+	color: white;
+	border:none;
+}
+.expire_month_output{
+	position: absolute;
+	margin-top:145px;
+	font-size: 14px;
+	margin-left:250px;
+	color: white;
+	border:none;
+}

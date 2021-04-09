@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mastercard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src = "mastercard.js"></script>
+    <link href="mastercard.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class = "mastercard">
+        <div class = "gold"></div>
+        <text id = "discover">DISCOVER</text>
+        <output id = "card_number" type = "number"></output>
+        <div>
+            <p class = "holder">Card holder</p>
+            <output id = "card_holder" type = "text" class = "card_holder"></output>
+        </div>
+        <div>
+            <p class = "expire">Expire date</p>
+            <output id = "year" type = "number" class = "expire_year_output"></output>
+            <output id = "month" type = "text" class = "expire_month_output"></output>
+        </div>
+    </div>
+    <form>
+        <ul>
+            <label class="card_number">Card number</label>
+            <input type="number" id="number" class="input_card_number" oninput="card_number()">
+            <label class="name">Name</label>
+            <input type="text" id="name" class="user_name" oninput="user_name()">
+            <select id = "select_month" class = "month" oninput="month()">
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select id = "select_year" class = "year" oninput="year()">
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+            </select>
+            <input type="password" id="password" class="password">
+            <label class="exp_date">Exp date</label>
+            <label class="CVV">CVV</label>
+        </ul>
+</form>
+</body>
+</html>
